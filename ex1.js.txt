@@ -1,0 +1,8 @@
+
+let numeros = [13,45,22,5,6,1,4];
+for (i = 0; i < numeros.length-1; i++) {
+  if (numeros[i] > numeroMaior) {
+    numeroMaior = numeros[i];
+  }
+}
+console.log(numeroMaior);
